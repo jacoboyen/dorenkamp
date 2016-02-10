@@ -1,0 +1,12 @@
+{
+  "name": "al-dorenkamp",
+  "homepage": "https://github.com/jacoboyen/dorenkamp",
+  "authors": [
+    "Jacob Oyen <oyenj@central.edu>"
+  ],
+  "description": "A simple website for Al Dorenkamp.",
+  "private": true,
+  "devDependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}

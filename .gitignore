@@ -1,0 +1,18 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project Specific #
+####################
+css/styles.all.css
+external-libraries
+images-source
+node_modules
+support
+vagrant/.vagrant
