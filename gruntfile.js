@@ -44,7 +44,7 @@ var mozjpeg = require('imagemin-mozjpeg');
         tasks: ['jshint', 'concat', 'uglify']
       },
       css:{
-        files: 'css/wordpress.styles.css',
+        files: 'css/custom.styles.css',
         tasks: ['concat', 'cssmin']
       },
       images:{
