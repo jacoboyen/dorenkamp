@@ -1,6 +1,21 @@
+/* ----------------------------------------------------
+HTML tweaks
+---------------------------------------------------- */
 html{
   background-color: #efefef;
   font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  margin: 0;
+  padding: .5em;
+}
+blockquote{
+  margin: 0;
+  padding: 0;
+}
+section img{
+  border:1px solid #333;
+  border-radius: .5em;
 }
 /* ----------------------------------------------------
 Fonts
@@ -8,18 +23,35 @@ Fonts
 h1, h2, h3, h4, h5{
   font-family: 'Rajdhani', sans-serif;
 }
+p{
+  line-height: 1.5em;
+}
 /* ----------------------------------------------------
 Global Helpers
 ---------------------------------------------------- */
-blockquote{
-  margin: 0;
-  padding: 0;
+.alignCenter{
+  text-align: center;
 }
 .breathe{
   padding: 1em 0;
 }
 .clearBoth{
   clear: both;
+}
+/* ----------------------------------------------------
+Buttons
+---------------------------------------------------- */
+.redButton{
+  padding: .5em;
+  background-color: #cb2026;
+  border: 1px solid #990000;
+  border-radius: .5em;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.redButton:hover{
+  background-color: #990000;
 }
 /* ----------------------------------------------------
 Header
@@ -29,17 +61,27 @@ header{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   color: #fff;
   padding: 1em 5em;
+  font-family: 'Rajdhani', Arial, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
 }
-header a:link, header a:visited{
+header nav{
+  border-top:1px solid #cc0000;
+  padding-top:.5em;
+}
+header nav a:link, header nav a:visited{
   color: #fff;
   text-decoration: none;
-  padding: .5em;
+  padding: .25em 1em;
+  margin-top: .25em;
 }
-header a:hover{
+header nav a:hover{
   background-color: #fff;
   color: #990000;
   border-radius: .25em;
-
+}
+header img{
+  height: 200px;
 }
 /* ----------------------------------------------------
 Sections
@@ -47,8 +89,12 @@ Sections
 .redQuote{
   font-family: 'Rajdhani', Arial, sans-serif;
   background-color: #990000;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5), 0 -5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5), 0 -4px 10px rgba(0, 0, 0, 0.5);
   color: #fff;
   text-align: center;
   font-size: 3em;
+}
+footer{
+  background-color: #990000;
+  color: #fff;
 }
